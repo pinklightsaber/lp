@@ -1,0 +1,65 @@
+:root {
+    --primary-color: #262d2d;
+    --primary: #403e3f;
+    --secondary-color:#EAEAE6;
+    --third-color: #7F7C79;
+    --fth-color: #dfac95;
+    --fif-color: #d8b29d;
+}
+
+@media only screen and (min-width: 600px) {
+    /* ALL */
+    section > div {
+        transform: translateY(10%);
+        opacity: .8;
+        -webkit-transition: all 1500ms ease-in;
+        /* older webkit */
+        -webkit-transition: all 1500ms ease-in;
+        -moz-transition: all 1500ms ease-in;
+        -ms-transition: all 1500ms ease-in;
+        -o-transition: all 1500ms ease-in;
+        transition: all 1500ms ease-in;
+    
+    }
+
+        /* ABOUT */
+ 
+    .up, .down {
+        width: 20vw;
+        height: 60vh;
+        transform: translateX(20px);
+        
+      
+    
+    }
+    .up>img{
+        transform: translateX(-10vh) translateY(-10vh);
+   
+        width: 120%;
+
+
+    }
+    .down>img{
+        transform: translateY(20vh);
+        width: 120%;
+       
+    }
+    #about h2{
+        transform: translateX(-10vh);
+    }
+
+    #services{
+        -webkit-box-shadow: 0vh -10vh 10vh 8vh var(--primary-color);
+        -moz-box-shadow: 0vh -10vh 10vh 8vh var(--primary-color);
+        box-shadow: 0vh -10vh 10vh 8vh var(--primary-color);
+    }
+
+    .medium{
+        height: 70vh;
+    }
+    
+
+
+}
+
+

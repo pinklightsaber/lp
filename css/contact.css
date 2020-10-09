@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #262d2d;
+    --primary: #403e3f;
+    --secondary-color:#EAEAE6;
+    --third-color: #7F7C79;
+    --fth-color: #dfac95;
+    --fif-color: #d8b29d;
+}
+
+
+#contact {
+    text-align: center;
+    height: 100vh;
+    color: var(--secondary-color)
+}
+
+#contact > div {
+    padding: 1rem;
+    background-color: rgba(0,0,0, .5) ;
+
+}
+
+label.active, i.active {
+    background-color: transparent;
+    color: var(--secondary-color)!important;
+}
+
+.validate{
+    color: var(--secondary-color)!important;
+    border: 1px solid var(--fif-color)
+
+}
