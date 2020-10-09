@@ -21,9 +21,18 @@
 
 .demo {
   margin-bottom: 24px;
- 
+  filter: sepia(100%);
   overflow: hidden;
   
+}
+
+.demo:hover{
+  filter: sepia(0);
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -ms-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  transition: all 1.5s ease;
 }
 
 

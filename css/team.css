@@ -13,6 +13,15 @@
    color: var(--primary-color)
 }
 
+#team h2{
+    transform: translateY(-10vw);
+    -webkit-transition: all 1.5s ease;
+-moz-transition: all 1.5s ease;
+-ms-transition: all 1.5s ease;
+-o-transition: all 1.5s ease;
+transition: all 1.5s ease;
+}
+
 #team .col {
     padding: 0;
 }
@@ -29,8 +38,32 @@
     letter-spacing: .2rem;
     font-size: .9rem!important;
 }
+
+.card-image{
+justify-content: center;
+
+display: flex;
+height: 40vh;
+
+}
+
 #team img{
+   
     height: 40vh;
+    filter: grayscale(100%);
+    width: auto;
+    
+ 
+}
+
+#team img:hover{
+    filter: grayscale(0);
+    
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
 }
 
 

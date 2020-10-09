@@ -20,6 +20,8 @@ h2{
      font-size: 13vw;
      color: var(--fth-color);
  }
+
+
 .parallax-container{
     box-shadow: inset 100vh 100vw  rgba(0, 0, 0, 0.5);
  

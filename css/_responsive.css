@@ -23,7 +23,9 @@
     }
 
         /* ABOUT */
- 
+        #about > div > div> div:nth-child(1){
+            background-color: var(--fif-color);
+        }
     .up, .down {
         width: 20vw;
         height: 60vh;
@@ -32,16 +34,22 @@
       
     
     }
-    .up>img{
+    .up>div{
         transform: translateX(-10vh) translateY(-10vh);
-   
-        width: 120%;
+        display: flex;
+        width: 50vh;
+        justify-content: center;
+        overflow:clip;
+    
 
 
     }
-    .down>img{
+    .down>div{
         transform: translateY(20vh);
-        width: 120%;
+        display: flex;
+        width: 50vh;
+        justify-content: center;
+        overflow:clip;
        
     }
     #about h2{

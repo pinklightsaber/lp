@@ -17,21 +17,20 @@
     z-index: 90;
    position: relative;
 }
-#about > div > div> div:nth-child(1){
-    background-color: var(--fif-color);
-}
+
 
 
 
 .up, .down {
     height: 50vh;
-    
+    display: flex;
+    justify-content: center;
     padding: 0!important;
 }
 
-.up > img, .down>img{
+.up  img, .down img{
     height: 50vh;
-    width: 100%;
+    width: auto
 }
 
 
